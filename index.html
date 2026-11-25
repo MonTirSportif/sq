@@ -30,7 +30,7 @@
 <nav id="nav"><a href="index.html" class="on" style="--navc:#12938a">Accueil</a><a href="outils-entrainement.html">Outils d'entraînement</a><a href="tir-de-precision.html">Tir de précision</a><a href="jeux.html">Les jeux</a><a href="suivi.html">Suivi</a><a href="annonce.html">Mon annonce</a><a href="a-propos.html">À propos</a></nav></div></header>
 <style>.sq-logo{display:block;width:140px;height:auto;margin:.2rem 0 .8rem}</style>
 <main class="view on" id="accueil" style="--acc:#12938a">
-<div class="hero"><div><img class="sq-logo" src="img/sportquantum-logo.png" alt="Sport Quantum" width="160" height="125"><div class="kicker">Cible électronique Sport Quantum</div>
+<div class="hero"><div><div class="home-tools"><a class="print-btn nav-site-btn" href="navigation.html" title="Accès direct par thème, parcours guidé ou plan du site"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.2 7.8 14.1 14.1 7.8 16.2 9.9 9.9 16.2 7.8"/></svg>Naviguer dans le site</a></div><img class="sq-logo" src="img/sportquantum-logo.png" alt="Sport Quantum" width="160" height="125"><div class="kicker">Cible électronique Sport Quantum</div>
 <h1>La SQ Air, simplement</h1>
 <p class="lead">L’application de la SQ Air est riche : visuels d’entraînement, matchs, contrats, jeux, suivi. Ce site part de ce que vous voulez faire, et vous mène au bon exercice, avec des fiches prêtes à l’emploi pour le tireur et l’entraîneur.</p>
 <nav class="somm" aria-label="Sommaire"><p class="somm-t">Sommaire</p><ul><li><a href="c-est-nouveau.html">C’est nouveau</a><span> — Les dernières nouveautés du site</span></li><li><a href="#je-veux">Je veux…</a><span> — Trouver le bon exercice</span></li><li><a href="#profils">Selon votre profil</a><span> — Débutant, compétiteur, entraîneur, club</span></li><li><a href="#seance-type">Une séance type</a><span> — 45 minutes</span></li><li><a href="#quoi-de-neuf">Quoi de neuf dans l’appli</a><span> — Version 3</span></li><li><a href="#rubriques">Les rubriques du site</a><span> — Pour aller plus loin</span></li><li><a href="#promesses">Ce que fait la SQ Air</a><span> — En 4 points</span></li></ul></nav></div></div>
@@ -84,6 +84,6 @@ document.getElementById('ck-no').addEventListener('click',function(){save('no');
 document.addEventListener('click',function(e){if(e.target.closest('[data-cookies]')){e.preventDefault();b.hidden=false;document.getElementById('ck-no').focus();}});})();</script>
 <script>document.querySelectorAll(".yt").forEach(function(w){var b=w.querySelector(".yt-btn");if(!b||w.dataset.bound)return;w.dataset.bound=1;b.addEventListener("click",function(){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+w.dataset.id+"?autoplay=1&rel=0";f.title="Vidéo";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;w.innerHTML="";w.appendChild(f);});});</script>
 <script src="js/share.js"></script>
-<script src="js/nav.js?v=20261126sw" defer></script>
+<script src="js/nav.js?v=20261126nav" defer></script>
 </body>
 </html>
