@@ -27,7 +27,7 @@
 </head>
 <body>
 <header><div class="bar"><a class="logo" href="index.html" aria-label="MonTirSportif SQ Air — accueil"><img src="img/logo.png" alt="MonTirSportif"></a>
-<nav id="nav"><a href="index.html">Accueil</a><a href="outils-entrainement.html">Outils d'entraînement</a><a href="tir-de-precision.html">Tir de précision</a><a href="jeux.html">Les jeux</a><a href="suivi.html">Suivi</a><a href="annonce.html">Mon annonce</a><a href="a-propos.html">À propos</a></nav></div></header>
+<nav id="nav"><a href="index.html">Accueil</a><a href="outils-entrainement.html">Outils d'entraînement</a><a href="tir-de-precision.html">Tir de précision</a><a href="jeux.html">Les jeux</a><a href="suivi.html">Suivi</a><a href="annonce.html">Mon annonce</a><a href="a-propos.html">À propos</a></nav><button type="button" class="srch-btn" id="srch-btn" aria-label="Rechercher dans le site" title="Rechercher (touche /)"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Rechercher</span></button></div></header>
 <main class="view on" id="navigation" style="--acc:#12938a">
 <style>
 .var-cards{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.4rem}
@@ -125,5 +125,6 @@ document.addEventListener('click',function(e){if(e.target.closest('[data-cookies
 <script>document.querySelectorAll(".yt").forEach(function(w){var b=w.querySelector(".yt-btn");if(!b||w.dataset.bound)return;w.dataset.bound=1;b.addEventListener("click",function(){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+w.dataset.id+"?autoplay=1&rel=0";f.title="Vidéo";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;w.innerHTML="";w.appendChild(f);});});</script>
 <script src="js/share.js"></script>
 <script src="js/nav.js?v=20261126nav" defer></script>
+<script src="js/search.js" data-base=""></script>
 </body>
 </html>
